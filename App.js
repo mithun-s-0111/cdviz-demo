@@ -16,6 +16,3 @@ function anotherDuplicate() {
   let z = 3;
   return x + y + z;
 }
-
-console.log('Hello world');
-console.log('Hi');
