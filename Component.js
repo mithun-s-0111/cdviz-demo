@@ -1,2 +1,2 @@
 console.log('Hello component.");
-console.log('New comment");
+console.log("New comment");
