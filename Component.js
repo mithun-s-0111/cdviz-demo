@@ -16,4 +16,4 @@ function complexFunction(a, b, c, d, e, f, g, h) {
   }
 }
 
-console.log("Check scans");
+console.log("Check scans")
