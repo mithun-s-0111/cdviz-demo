@@ -52,7 +52,9 @@ jobs:
         run: npm ci
 
       - name: Run tests
-        run: npm test -- --watchAll=false --coverage --passWithNoTests
+        run: CI=true npm test -- --coverage --watchAll=false
+        env:
+          CI: true
 
       - name: Upload coverage reports
         uses: codecov/codecov-action@v4
